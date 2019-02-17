@@ -13,7 +13,7 @@ public class totolotek {
 		int[] wylosowane = new int[6];
 		int k = 0;
 		while (k < 6) {
-			System.out.println("Podaj liczbe od 1-49. Liczby nie mog¹ siê powtarzaæ");
+			System.out.println("Podaj liczbe od 1-49. Liczby nie moga sie powtarzac");
 			int w = s.nextInt();
 			boolean poprawna = CzyPoprawna(w, kupon);
 			if (poprawna) {
