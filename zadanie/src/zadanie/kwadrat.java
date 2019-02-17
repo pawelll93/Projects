@@ -12,7 +12,7 @@ public class kwadrat {
 		
 		Scanner s = new Scanner(System.in);
 
-		System.out.println("Podaj dlugoœæ boku kwadratu");
+		System.out.println("Podaj dlugosc boku kwadratu");
 		int n = s.nextInt();
 
 		for (int i = 0; i < n; i++) {
